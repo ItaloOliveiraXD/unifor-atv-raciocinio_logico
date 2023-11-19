@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/atividade-style.css">
+    <title>Atividade</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-head">
+            <img src="image/unifor-logo-horizontal-negative.svg" alt="logo da universidade" width="200">
+            <h1>Atividade - Raciocínio Lógico e Algorítmico</h1>
+        </div>
+    </header>
+    <main>
+        <section id="atividade">
+            <div class="container-atividade">
+                <h2>Atividade Final</h2>
+                <div class="card-opcao">
+                    <div class="card-head">
+                        <label for="crtl-opcao">Escolha uma opção:</label>
+                    </div>
+                    <div class="opcoes">
+                        <select class="opcao" name="opcao" id="crtl-opcao">
+                            <option value="1">1. Novo salário</option>
+                            <option value="2">2. Férias</option>
+                            <option value="3">3. Décimo terceiro</option>
+                            <option value="4">4. Sair</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <a type="button" class="btn-enviar-atividade"> Enviar </a>
+                    <a href="index.html">
+                        <input type="button" class="voltar btn-voltar" value="Voltar">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="modal" hidden>
+            <div class="container-modal">
+                <h2>Informe os dado(s)</h2>
+                <div>
+                    <div class="salario">
+                        <label for="ctrl-salario">Informe seu salário:</label>
+                        <input type="text" class="form-control" id="ctrl-salario" placeholder="R$ 1000,00">
+                    </div>
+                    <div class="div-mes" hidden>
+                        <div class="meses">
+                            <label for="ctrl-mes">Meses:</label>
+                            <input type="text" class="form-control" id="ctrl-mes" placeholder="Informe seus meses trabalhados">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <input type="submit" id="enviar" class="btn-enviar-modal" value="Enviar">
+                    <input type="submit" id="fechar" class="btn-fechar-modal" value="Fechar">
+                </div>
+                <div class="container-resultado">
+                    <div class="resultado" hidden>
+                        Aqui terá um texto do resultado.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/tela.js"></script>
+    <script src="js/resolucao.js"></script>
+</body>
+
+</html>

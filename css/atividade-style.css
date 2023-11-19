@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(45deg, #0000ff, #0087f5);
+}
+
+.container-head {
+  width: 960px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.container-head img {
+  margin-top: 30px;
+}
+
+.container-head h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#atividade {
+  background-color: #ffffff;
+}
+
+.container-atividade {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-atividade h2 {
+  margin: 50px 0;
+  color: #797979;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.card-opcao {
+  width: 80%;
+  height: 250px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 5px 5px 10px #555555;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-head {
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  text-align: center;
+}
+
+.card-head label {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.opcao {
+  padding: 13px 20px 13px 12px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  color: #797979;
+}
+
+.btn {
+  display: flex;
+  gap: 30px;
+}
+
+.btn-enviar-atividade {
+  padding: 15px 80px;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(45deg, #0000ff, #0087f5);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.btn-enviar-atividade:hover {
+  transform: scale(1.07);
+}
+
+.btn-enviar-atividade:active {
+  transform: scale(1);
+}
+
+.voltar {
+  padding: 15px 80px;
+  border-radius: 8px;
+  background-image: #f0f0f0;
+  border-color: #0000ff;
+  cursor: pointer;
+  transition: transform 0.5s;
+  color: #0000ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.voltar:hover {
+  transform: scale(1.07);
+}
+
+.voltar:active {
+  transform: scale(1);
+}
+
+.container-modal {
+  width: 960px;
+  margin: 80px auto;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 5px 5px 10px 5px #555555;
+}
+
+.container-modal h2 {
+  color: #797979;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.salario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.salario label {
+  color: #797979;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.salario input {
+  border-radius: 8px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.meses {
+  display: flex;
+  flex-direction: column;
+}
+
+.meses label {
+  color: #797979;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.meses input {
+  border-radius: 8px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-enviar-modal {
+  padding: 15px 80px;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(45deg, #0000ff, #0087f5);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.btn-enviar-modal:hover {
+  transform: scale(1.07);
+}
+
+.btn-enviar-atividade-modal:active {
+  transform: scale(1);
+}
+
+.btn-fechar-modal {
+  padding: 15px 80px;
+  border-radius: 8px;
+  background-image: #f0f0f0;
+  border-color: #0000ff;
+  cursor: pointer;
+  transition: transform 0.5s;
+  color: #0000ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-fechar-modal:hover {
+  transform: scale(1.07);
+}
+
+.btn-fechar-modal:active {
+  transform: scale(1);
+}
+
+.container-resultado {
+  display: flex;
+}
+
+.resultado {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
